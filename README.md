@@ -1,12 +1,6 @@
 # Personalized Greeting Generator
 
-In this task, you will implement a method that generates personalized greeting messages for a list of client names.
-
-Implement the following method:
-
-`getGreetings()` in the `GreetingService` class.
-
-Method `getGreetings()` should take a list of client names, which may contain null values. It should iterate through each item in the list and generate a personalized greeting message for non-null names. To handle `null` values gracefully, use the Kotlin `let` function to process only the non-null names.
+Implement the getGreetings() method in the GreetingService class. This method should accept a list of client names, which may contain null values. It should iterate through each item in the list and generate a personalized greeting message for non-null names. To handle `null` values gracefully, use the Kotlin `let` function to process only the non-null names.
 
 Here's the expected behavior of `getGreetings()`:
 
