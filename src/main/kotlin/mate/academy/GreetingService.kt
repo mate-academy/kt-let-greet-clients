@@ -12,3 +12,4 @@ class GreetingService {
         return greeting
     }
 }
+
