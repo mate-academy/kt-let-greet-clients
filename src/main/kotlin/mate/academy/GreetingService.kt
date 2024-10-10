@@ -4,7 +4,7 @@ class GreetingService {
     fun getGreetings(clientNames: List<String?>): List<String> {
         val resultGreetings: MutableList<String> = mutableListOf()
         clientNames.forEach(){
-            name -> name?.let {
+            e -> e?.let {
                 resultGreetings.add("Hello, ${it}!")
             }
         }
